@@ -57,4 +57,5 @@ export default function Page() {
         <button onClick={submit} disabled={loading} style={{width:'100%',padding:14,background:'#4a9eff',color:'#000',border:'none',borderRadius:12,fontSize:14,fontWeight:700,cursor:'pointer',opacity:loading?0.6:1}}>{loading?'Envoi...':'Soumettre le spot'}</button>
       </div>
     </div>
-  )
+  );
+}
